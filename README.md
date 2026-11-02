@@ -7,7 +7,7 @@ A Playwright-based script that audits third-party tracker traffic on Rwandan web
 
 | Condition | Description |
 |-----------|-------------|
-| `Initial_Load` | No consent interaction — raw page load |
+| `Initial_Load` | No consent interaction - raw page load |
 | `Rejected` | All non-essential cookies rejected |
 | `Accepted` | All cookies accepted |
 
