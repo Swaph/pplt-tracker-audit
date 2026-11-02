@@ -57,7 +57,7 @@ Results land in `tracker_results/` (created automatically).
 | `extract_etld_plus_one(url)` | Strips URL to eTLD+1 for domain comparison |
 | `is_third_party_tracker(req_url, page_domain)` | Checks request against known tracker domain list |
 | `handle_consent_banner(page, action)` | Clicks Reject/Accept on OneTrust, Cookiebot, and common CMP banners |
-| `record_website_traffic(url, condition)` | Core audit function — launches browser, records HAR, computes metrics |
+| `record_website_traffic(url, condition)` | Core audit function - launches browser, records HAR, computes metrics |
 | `main()` | Runs all (URL × condition) combinations sequentially |
 
 ---
